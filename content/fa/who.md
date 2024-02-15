@@ -1,4 +1,4 @@
-Who should read this document?
+چه کسی باید این سند را بخواند؟
 ==============================
 
-Any developer building applications which run as a service.  Ops engineers who deploy or manage such applications.
+هر برنامه‌نویسی که برنامه‌هایی که می‌سازد به‌عنوان یک سرویس اجرا می‌شوند. مهندسان عملیات که چنین برنامه هایی را مستقر یا مدیریت می کنند.
