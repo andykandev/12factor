@@ -1,12 +1,15 @@
-Introduction
+<style>*{direction: rtl}
+</style>
+معرفی
 ============
 
-In the modern era, software is commonly delivered as a service: called *web apps*, or *software-as-a-service*.  The twelve-factor app is a methodology for building software-as-a-service apps that:
+در عصر مدرن، محصولات نرم‌افزاری معمولاً به عنوان یک سرویس عرضه می شوند: که آنها را با نام *برنامه های وب* یا *[نرم‌افزار-به-عنوان-سرویس](https://fa.wikipedia.org/wiki/%D8%A7%D8%AC%D8%A7%D8%B1%D9%87_%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1)* می شناسیم. "برنامه ۱۲-فاکتوری" روشی برای ساخت نرم‌افزار-به-عنوان-سرویس است که:
 
-* Use **declarative** formats for setup automation, to minimize time and cost for new developers joining the project;
-* Have a **clean contract** with the underlying operating system, offering **maximum portability** between execution environments;
-* Are suitable for **deployment** on modern **cloud platforms**, obviating the need for servers and systems administration;
-* **Minimize divergence** between development and production, enabling **continuous deployment** for maximum agility;
-* And can **scale up** without significant changes to tooling, architecture, or development practices.
+* برای به حداقل رساندن زمان و هزینه برای توسعه دهندگان جدید که به پروژه می پیوندند، از فرمت های **[اعلامی](https://fa.wikipedia.org/wiki/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C_%D8%A7%D8%B9%D9%84%D8%A7%D9%86%DB%8C)** برای
+  اتوماسیون راه‌اندازی استفاده کند.
+* یک **قرارداد تمیز** با سیستم عامل داشته باشد که **حداکثر قابلیت [حمل](https://fa.wikipedia.org/wiki/%D9%82%D8%A7%D8%A8%D9%84%DB%8C%D8%AA_%D8%AD%D9%85%D9%84_%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1)** را بین محیط های اجرا فراهم کند.
+* مناسب برای **[استقرار](https://fa.wikipedia.org/wiki/%D8%A8%D9%87%E2%80%8C%DA%A9%D8%A7%D8%B1%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C_%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1)** بر روی **سکوهای ابری** مدرن، بدون نیاز به مدیریت سرورها و سیستم ها باشد.
+* برای تحقق حداکثر چابکی با **[استقرار پیوسته](https://fa.wikipedia.org/wiki/%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1_%D9%BE%DB%8C%D9%88%D8%B3%D8%AA%D9%87)**، **واگرایی** بین توسعه و تولید را به حداقل برساند.
+* بتواند بدون تغییر قابل توجه در ابزار، معماری یا شیوه های توسعه، **[مقیاس‌پذیر](https://fa.wikipedia.org/wiki/%D9%85%D9%82%DB%8C%D8%A7%D8%B3%E2%80%8C%D9%BE%D8%B0%DB%8C%D8%B1%DB%8C)** باشد.
 
-The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).
+متدولوژی ۱۲-فاکتور را می توان به تمام برنامه ها، فارغ از زبان برنامه نویسی و یا ترکیب استفاده از خدمات پشتیبان (پایگاه داده، صف، حافظه نهان و غیره)، اعمال کرد.
